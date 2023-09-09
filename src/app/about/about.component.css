@@ -1,0 +1,15 @@
+.about{
+    background-color: rgb(250, 7, 116);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container-about{
+    width: 70%;
+}
+.about h2 {
+    font-weight: 700;
+    font-size: 40px;
+}

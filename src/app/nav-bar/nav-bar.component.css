@@ -1,0 +1,14 @@
+.active{
+    background-color: rgb(250, 7, 116);
+    color: white;
+    border-radius: 20px;
+    transition:all 0.5s ;
+    width: fit-content;
+    padding: 5px;
+}
+nav ul{
+    font-size: 18px;
+}
+.nav-link {
+    color:white;
+}

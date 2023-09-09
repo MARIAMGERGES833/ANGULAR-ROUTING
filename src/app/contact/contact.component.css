@@ -1,0 +1,45 @@
+ /* input{
+    border: none;
+    box-shadow: 5px 5px 5px 5px rgb(250, 7, 116);
+    padding: 1.5rem;
+} */
+.name , .age , .email , .password{
+    position: relative;
+    /* margin-bottom: 1rem; */
+}
+.contact{
+width: 60%;
+margin: auto;
+}
+label{
+   
+    color: rgb(250, 7, 116);
+    /* display: none; */
+} 
+.form-control{
+    border: none;
+    border-bottom: solid rgb(250, 7, 116) 2px;
+}
+.form-control:focus{
+    border: none;
+    border-bottom: solid rgb(250, 7, 116) 2px;
+
+    box-shadow: none;
+}
+.btn-pink{
+    background-color: rgb(250, 7, 116);
+    color: white;
+}
+.btn-pink:hover{
+    background-color:transparent;
+    color: rgb(8, 8, 8);
+    border: solid rgb(250, 7, 116) 2px;
+}
+::placeholder{
+    color:rgb(250, 7, 116) !important ;
+}
+@media screen and (max-width:768px) {
+    .contact{
+        width: 90%;
+        }
+}

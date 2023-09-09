@@ -1,0 +1,33 @@
+.home{
+    background-color: rgb(250, 7, 116);
+    color: white;
+}
+
+.home .content img{
+    filter: drop-shadow(8px 8px 10px white);
+    animation: shadow 3s infinite;
+}
+@keyframes shadow {
+   0%,100%{
+    filter: drop-shadow(8px 8px 10px white);
+
+   } 
+   20%,80%{
+    filter: drop-shadow(15px 15px 15px rgb(255, 255, 198));
+
+   }
+   50%{
+    filter: drop-shadow(20px 20px 30px rgb(156, 252, 236));
+
+   }
+}
+@media screen and (max-width:768px) {
+    .content{
+        width: 50%;
+    }
+}
+@media screen and (min-width:769px) {
+    .content{
+        width: 25%;
+    }
+}
